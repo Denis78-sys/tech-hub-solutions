@@ -1,7 +1,5 @@
 <template>
-    <div>
-       <Logo />
-    </div>
+    <Header />
 </template>
 
 <script>
