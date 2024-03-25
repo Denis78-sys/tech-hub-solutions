@@ -10,6 +10,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      width: {
+        '600': '600px',
+        '694': '694px',
+        '561': '561px',
+        '328': '328px'
+      },
       container: {
         screens: {
           sm: '328px', // Para telas menores ou iguais a 360px
