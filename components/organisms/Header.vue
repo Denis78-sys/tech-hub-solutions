@@ -1,10 +1,12 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div class="header">
-    <div class="flex items-center justify-between">
-      <Logo />
-      <Menu />
-    </div>
+  <div class="header flex justify-center">
+    <Container>
+      <div class="flex items-center justify-between">
+        <Logo />
+        <Menu />
+      </div>
+    </Container>
   </div>
 </template>
 
