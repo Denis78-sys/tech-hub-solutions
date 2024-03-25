@@ -3,7 +3,7 @@
   <div class="menu">
     <nav class="flex gap-8">
       <ul
-        class="nav md:flex md:flex-row sm:flex-col md:gap-x-12 sm:gap-x-0 sm:gap-y-8"
+        class="nav md:flex md:flex-row sm:flex-col lg:gap-12 md:gap-x-8 sm:gap-x-0 sm:gap-y-8"
         :class="{ hidden: !menuAtivo }"
       >
         <li v-for="item in itens" :key="item.id">

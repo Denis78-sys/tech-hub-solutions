@@ -9,7 +9,17 @@ module.exports = {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      container: {
+        screens: {
+          sm: '328px', // Para telas menores ou iguais a 360px
+          md: '560px', // Para telas menores ou iguais a 720px
+          lg: '1040px', // Para telas menores ou iguais a 1280px
+          xl: '1120px', // Para telas menores ou iguais a 1920px
+          "2xl": '1440px'
+        },
+      }
+    },
     screens: {
       sm: "360px",
 
