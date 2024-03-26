@@ -10,11 +10,23 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontSize: {
+        'titulo-destaque': '2.5rem',
+        'titulo-principal': '2.12rem',
+        'subtitulo': '1.75rem',
+        'titulo-secao': '1.5rem',
+        'subtitulo-secao': '1.5rem',
+        'paragrafo': '1rem',
+        'legenda': '0.81rem'
+      },
       width: {
         '600': '600px',
         '694': '694px',
         '561': '561px',
-        '328': '328px'
+        '328': '328px',
+        'servico-l-s': '336px',
+        'servico-m': '559px'
+
       },
       container: {
         screens: {

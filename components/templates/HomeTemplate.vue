@@ -3,6 +3,7 @@
     <Container>
       <Header />
       <Titulos />
+      <Servicos />
     </Container>
   </div>
 </template>
