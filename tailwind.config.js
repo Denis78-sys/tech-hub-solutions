@@ -57,6 +57,7 @@ module.exports = {
       'azul-700': '#041447',
       'laranja': '#FF6F61',
       'branco': '#FFFFFF',
+      'verde-botao': '#03A613'
       
     },
   },

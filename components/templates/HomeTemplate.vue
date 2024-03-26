@@ -1,5 +1,5 @@
 <template>
-  <div class="home-template flex justify-center">
+  <div class="home-template flex justify-center mb-2">
     <Container>
       <Header />
       <Titulos />

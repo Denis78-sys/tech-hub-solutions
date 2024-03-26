@@ -1,11 +1,11 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div class="servicos mt-28">
-    <h1 class="text-titulo-principal text-center font-extrabold text-azul-500">Serviços</h1>
+    <h1 class="text-titulo-principal text-center font-extrabold text-azul-500 lg:mb-10 md:mb-8 sm:mb-8">Serviços</h1>
     <div class="lg:flex lg:flex-row md:flex-col justify-between">
       <div v-for="itens in itensServicos" :key="itens.id">
         <Servico
-          class="lg:w-servico-l-s md:w-servico-m sm:w-servico-l-s"
+          class="lg:w-servico-l-s md:w-servico-m sm:w-servico-l-s lg:mb-0 md:mb-8 sm:mb-8"
           :link-imagem="itens.imagem"
           :texto-serv="itens.texto"
           :titulo-serv="itens.titulo"
@@ -39,7 +39,7 @@ export default {
           imagem: "appServico.svg",
           titulo: "Apps",
           texto:
-            "Criamos aplicativos móveis inovadores para impulsionar o engajamento do usuário e promover o crescimento de seu negócio. Ofereça experiências envolventes onde seus clientes estão, com soluções personalizadas desenvolvidas por nossa equipe especializada.",
+            "Criamos aplicativos móveis inovadores para impulsionar o engajamento do usuário e promover o crescimento de seu negócio. Ofereça experiências envolventes onde seus clientes estão, com soluções personalizadas e desenvolvidas por nossa equipe de profissionais especializada.",
         },
       ],
     };

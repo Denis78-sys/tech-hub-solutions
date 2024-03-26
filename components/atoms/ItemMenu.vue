@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/require-prop-types -->
 <template>
-  <div class="item-menu hover:bg-azul-300 hover:text-branco rounded">
+  <div class="item-menu transform transition-transform duration-300 hover:scale-105 hover:bg-azul-500 hover:text-branco rounded">
     <a class="text-base" :href="linkM">{{ itemM }}</a>
   </div>
 </template>
