@@ -1,6 +1,6 @@
 <template>
     <div class="texto-servico">
-       <p class="md:text-justify sm:text-center">{{ texto }}</p>
+       <p class="md:text-justify sm:text-center text-paragrafo">{{ texto }}</p>
     </div>
 </template>
 

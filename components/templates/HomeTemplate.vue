@@ -4,6 +4,7 @@
       <Header />
       <Titulos />
       <Servicos />
+      <Sobre />
     </Container>
   </div>
 </template>

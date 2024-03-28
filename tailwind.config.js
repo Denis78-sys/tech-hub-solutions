@@ -15,7 +15,7 @@ module.exports = {
         'titulo-principal': '2.12rem',
         'subtitulo': '1.75rem',
         'titulo-secao': '1.5rem',
-        'subtitulo-secao': '1.5rem',
+        'subtitulo-secao': '1.2rem',
         'paragrafo': '1rem',
         'legenda': '0.81rem'
       },
@@ -25,7 +25,9 @@ module.exports = {
         '561': '561px',
         '328': '328px',
         'servico-l-s': '336px',
-        'servico-m': '559px'
+        'servico-m': '559px',
+        'texto-sobre-lg': '512px',
+        'icone-servico': '109px'
 
       },
       container: {

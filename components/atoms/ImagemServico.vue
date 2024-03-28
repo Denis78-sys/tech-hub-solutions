@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/require-default-prop -->
 <template>
-  <div class="imagem-servico">
+  <div class="imagem-servico w-icone-servico">
     <img :src="require(`@/assets/images/servicos/${imagem}`)" alt="Foto" />
   </div>
 </template>

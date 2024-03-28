@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <!-- eslint-disable-next-line vue/multi-word-component-names -->
 <template>
-  <div class="servico flex flex-col justify-center items-center gap-4">
+  <div class="servico flex flex-col justify-center items-center gap-4 text-center">
     <ImagemServico :imagem="linkImagem" />
     <TituloServico :titulo="tituloServ" />
     <TextoServico :texto="textoServ" />
