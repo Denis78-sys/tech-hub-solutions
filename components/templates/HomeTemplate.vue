@@ -5,6 +5,7 @@
       <Titulos />
       <Servicos />
       <Sobre />
+      <Contato />
     </Container>
   </div>
 </template>
