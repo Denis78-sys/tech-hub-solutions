@@ -59,8 +59,11 @@ module.exports = {
       'azul-700': '#041447',
       'laranja': '#FF6F61',
       'branco': '#FFFFFF',
-      'verde-botao': '#03A613'
-      
+      'verde-botao': '#03A613',
+      'bg-footer1': '#344054',
+      'bg-footer2': '#101828',
+      'fonte-footer': '#EAECF0',
+      'cinza': '#98A2B3'
     },
   },
   plugins: [],

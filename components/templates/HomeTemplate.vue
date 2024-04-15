@@ -1,12 +1,15 @@
 <template>
-  <div class="home-template flex justify-center mb-2">
-    <Container>
-      <Header />
-      <Titulos />
-      <Servicos />
-      <Sobre />
-      <Contato />
-    </Container>
+  <div class="home-template">
+    <div class="flex justify-center mb-2">
+      <Container>
+        <Header />
+        <Titulos />
+        <Servicos />
+        <Sobre />
+        <Contato />
+      </Container>
+    </div>
+    <Rodape />
   </div>
 </template>
 
