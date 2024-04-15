@@ -25,7 +25,7 @@ export default {
       itens: [
         { id: 1, nome: "Home", linkPagina: "#header" },
         { id: 2, nome: "Sobre nós", linkPagina: "#sobre" },
-        { id: 3, nome: "Serviço", linkPagina: "#servicos" },
+        { id: 3, nome: "Serviço", linkPagina: "#servico" },
         { id: 4, nome: "Contato", linkPagina: "#contato" },
       ],
       menuAtivo: false, // Inicialmente o menu está inativo
