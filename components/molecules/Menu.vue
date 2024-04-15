@@ -23,10 +23,10 @@ export default {
   data() {
     return {
       itens: [
-        { id: 1, nome: "Home", linkPagina: "" },
-        { id: 2, nome: "Sobre nós", linkPagina: "" },
-        { id: 3, nome: "Serviço", linkPagina: "" },
-        { id: 4, nome: "Contato", linkPagina: "" },
+        { id: 1, nome: "Home", linkPagina: "#header" },
+        { id: 2, nome: "Sobre nós", linkPagina: "#sobre" },
+        { id: 3, nome: "Serviço", linkPagina: "#servicos" },
+        { id: 4, nome: "Contato", linkPagina: "#contato" },
       ],
       menuAtivo: false, // Inicialmente o menu está inativo
     };
