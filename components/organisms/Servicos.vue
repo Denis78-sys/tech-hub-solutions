@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div class="servicos mt-28 w-full">
+  <div id="servicos" class="servicos mt-28 w-full">
     <h1 class="text-titulo-secao text-center font-extrabold text-azul-500 lg:mb-10 md:mb-8 sm:mb-8">Serviços</h1>
     <div class="lg:flex lg:flex-row md:flex-col justify-between gap-8">
       <div v-for="itens in itensServicos" :key="itens.id" class="mt-4">
