@@ -6,7 +6,7 @@
         class="flex md:flex-row sm:flex-col content-center md:gap-32 sm:gap-4 mt-8"
       >
         <div class="md:mb-0 sm:mb-8">
-          <a href="#header" class="lg:w-32 md:w-20 sm:w-16">
+          <a href="" class="lg:w-32 md:w-20 sm:w-16">
             <img :src="require('@/assets/images/LOGO2.svg')" alt="Logo2" />
           </a>
           <p class="text-fonte-footer text-sm mt-4">
@@ -16,16 +16,16 @@
         <div>
           <h3 class="font-bold text-cinza mb-2">Serviços</h3>
           <ul class="text-fonte-footer text-sm">
-            <li class="mb-2"><a href="#servico">Desenvolvimento</a></li>
-            <li class="mb-2"><a href="#servico">Desktop</a></li>
-            <li class="mb-2"><a href="#servico">Aplicativos</a></li>
+            <li class="mb-2"><a href="">Desenvolvimento</a></li>
+            <li class="mb-2"><a href="">Desktop</a></li>
+            <li class="mb-2"><a href="">Aplicativos</a></li>
           </ul>
         </div>
       </Container>
     </div>
     <div class="bg-bg-footer2 flex justify-center">
         <Container>
-            <p class="text-fonte-footer text-sm pt-8 pb-8">&copy; 2024 Tech Hub Solutions. Projeto desenvolvido apenas para estudo.</p>
+            <p class="text-fonte-footer text-sm pt-8 pb-8">&copy; 2024 Tech Hub Solutions. Todos os direitos reservados.</p>
             
         </Container>
     </div>
