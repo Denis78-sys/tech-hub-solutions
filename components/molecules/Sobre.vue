@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div id="sobre" class="sobre lg:mt-48 md:mt-24 sm:mt-14">
+  <div class="sobre lg:mt-48 md:mt-24 sm:mt-14">
     <h1 class="text-titulo-secao text-azul-600 font-bold text-center">Sobre nós</h1>
     <div class="flex lg:flex-row md:flex-col-reverse sm:flex-col-reverse justify-between gap-8 mt-8 items-center">
       <div class="xl:w-full lg:w-full md:w-full sm:w-full">
