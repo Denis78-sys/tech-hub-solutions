@@ -34,10 +34,15 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    // Defina o processamento pós-compilação para o Vercel Builder
     postcss: {
       plugins: {
+        'postcss-import': {},
+        'postcss-url': {},
+        'postcss-preset-env': {
+          autoprefixer: { grid: true },
+        },
         tailwindcss: {},
-        autoprefixer: {},
       },
     },
   },
