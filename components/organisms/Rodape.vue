@@ -16,9 +16,9 @@
         <div>
           <h3 class="font-bold text-cinza mb-2">Serviços</h3>
           <ul class="text-fonte-footer text-sm">
-            <li class="mb-2"><a href="">Desenvolvimento</a></li>
-            <li class="mb-2"><a href="">Desktop</a></li>
-            <li class="mb-2"><a href="">Aplicativos</a></li>
+            <li class="mb-2"><a href="#servicos">Desenvolvimento</a></li>
+            <li class="mb-2"><a href="#servicos">Desktop</a></li>
+            <li class="mb-2"><a href="#servicos">Aplicativos</a></li>
           </ul>
         </div>
       </Container>

@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div class="contato lg:mt-48 md:mt-24 sm:mt-14">
+  <div id="contato" class="contato lg:mt-48 md:mt-24 sm:mt-14">
     <h1 class="text-titulo-secao text-azul-600 font-bold text-center">
       Fale conosco
     </h1>
